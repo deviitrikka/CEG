@@ -1,4 +1,4 @@
-# 🚀 React + FastAPI Seamless Integration: Cold Email Generator
+# 🚀 React + FastAPI Seamless Integration: Cold Email Generator (https://cemailgen.vercel.app/)
 
 This project showcases the **perfect integration of React (Vite) and FastAPI**, bringing the best of both worlds together. The goal is to **extract job postings from a URL, generate AI-powered cold emails, and display them in an elegant UI**.
 
