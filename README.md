@@ -26,7 +26,9 @@ This project showcases the **perfect integration of React (Vite) and FastAPI**, 
 ---
 
 ## 📷 **Demo Screenshot**
-🚀 **[Live Demo](https://cemailgen.vercel.app/)** (Replace with your actual frontend URL)
+🚀 **[Live Demo](https://cemailgen.vercel.app/)** 
+![image](https://github.com/user-attachments/assets/2e1d2cde-3057-4392-a96c-f88f82a2fe98)
+
 
 ---
 
@@ -149,5 +151,3 @@ The frontend will run at: **[http://localhost:5173](http://localhost:5173)**
 This project is open-source and available under the **MIT License**.
 
 📩 **Feel free to contribute & star this repository!** ⭐🚀
-```
-
