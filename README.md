@@ -1,6 +1,3 @@
-Here is your **GitHub README** in **Markdown format**, ready for direct copy-pasting into your repository.
-
-```markdown
 # 🚀 React + FastAPI Seamless Integration: Cold Email Generator
 
 This project showcases the **perfect integration of React (Vite) and FastAPI**, bringing the best of both worlds together. The goal is to **extract job postings from a URL, generate AI-powered cold emails, and display them in an elegant UI**.
@@ -11,8 +8,6 @@ This project showcases the **perfect integration of React (Vite) and FastAPI**, 
 - **Railway deployment** for easy cloud hosting.
 - **CORS handling** to enable smooth API communication.
 - **Seamless RESTful API requests** with `axios`.
-
----
 
 ## 🛠️ Tech Stack
 ### **Frontend**
