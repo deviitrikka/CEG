@@ -14,7 +14,7 @@ export default function App() {
     setError("");
     setResults([]);
     try {
-      const response = await axios.post(`https://backendemail.up.railway.app/${endpoint}`, { url });
+      const response = await axios.post(`https://web-production-36c07.up.railway.app/${endpoint}`, { url });
       setResults(response.data.results);
     } catch (err) {
       setError("Failed to fetch data. Please try again.");
