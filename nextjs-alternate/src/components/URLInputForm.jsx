@@ -28,12 +28,11 @@ export default function URLInputForm({
         Cold Email Generator
       </motion.h1>
       
-      <motion.input
-        type="text"
-        placeholder="Enter an URL"
+      <motion.textarea
+        placeholder="Paste a job description or enter a job URL"
         value={url}
         onChange={(e) => setUrl(e.target.value)}
-        className="w-full p-2 mb-4 rounded bg-zinc-700 text-white"
+        className="w-full p-2 mb-4 rounded bg-zinc-700 text-white min-h-12 resize-y"
         whileFocus={{ scale: 1.01 }}
       />
 
@@ -66,4 +65,3 @@ export default function URLInputForm({
     </motion.div>
   );
 }
-

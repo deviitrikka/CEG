@@ -17,14 +17,14 @@ export default function EmailTypeSelector({ value, onValueChange, disabled }) {
         <SelectItem value="process1" textValue="Email as Individual">
           Email as Individual
         </SelectItem>
-        <SelectItem value="process2" textValue="Email as Business Executive">
+        <SelectItem value="process2" textValue="Email as Business Executive" disabled>
           <div className="flex flex-col">
-            <div className="flex items-center gap-2">
-              <Badge className="bg-blue-500 hover:bg-blue-600 text-white text-xs py-0 px-1.5">
+            <div className="flex">
+              <Badge className="bg-blue-500 hover:bg-blue-600 text-white text-xs px-1.5 ">
                 Pro
               </Badge>
             </div>
-            <span className="text-xs text-zinc-400 mt-0.5">uses vector db</span>
+            <div className="text-xs text-zinc-400 mt-0.5">uses vector db</div>
           </div>
         </SelectItem>
       </SelectContent>

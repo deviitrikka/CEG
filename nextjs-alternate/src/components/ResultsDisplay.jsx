@@ -25,4 +25,3 @@ export default function ResultsDisplay({ results, onCopy, copiedIndex }) {
     </motion.div>
   );
 }
-

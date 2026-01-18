@@ -23,7 +23,7 @@ export default function Home() {
     try {
       const response = await axios.post(
         `api/${endpoint}`,
-        { url }
+        { input: url }
       );
       setResults(response.data.results);
     } catch (err) {
