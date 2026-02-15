@@ -1,7 +1,7 @@
-import HomeClient from "./HomeClient";
+import HomeLayout from "./HomeLayout";
 
 export default function Home() {
     return (
-        <HomeClient />
+        <HomeLayout />
     );
 }

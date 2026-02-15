@@ -3,7 +3,7 @@ import TextType from "@/components/TextType";
 import AnimatedBackground from "@/components/AnimatedBackground";
 import FormsResult from "./FormsResult";
 
-export default function HomeClient() {
+export default function HomeLayout() {
 
   return (
     <div className="relative w-full min-h-screen flex flex-col items-center justify-center px-4 bg-zinc-900 text-white">
