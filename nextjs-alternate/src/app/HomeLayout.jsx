@@ -12,7 +12,7 @@ export default function HomeLayout() {
       <div className="relative z-10 flex flex-col items-center w-full max-w-2xl">
       <TextType 
         text={["Why be resume #847 in a pile no one reads?", "Be the email that actually gets a reply."]} 
-        className="text-2xl font-bold text-center mb-2" 
+        className="text-2xl font-bold text-center mb-2 " 
         initialDelay={5000} 
       /> 
       <FormsResult />
