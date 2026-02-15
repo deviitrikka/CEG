@@ -14,7 +14,7 @@ export default function URLInputForm({
 }) {
   return (
     <motion.div
-      className="w-full max-w-2xl p-6 bg-zinc-900 border border-zinc-700 rounded-lg shadow-lg relative z-10"
+      className="w-full max-w-2xl p-6 m-0 bg-zinc-900 border border-zinc-700 rounded-lg shadow-lg relative z-10"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
